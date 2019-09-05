@@ -1,13 +1,13 @@
-#include "tp_executable_class.h"
+#include "tpc_executable_class.h"
 
 
 namespace jmsd {
-namespace tp_executable {
+namespace tpc_executable {
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-char const *Tp_executable_class::say_executable_hello() const noexcept {
-	return "Tp_executable_class::say_executable_hello";
+char const *Tpc_executable_class::say_executable_hello() const noexcept {
+	return "Tpc_executable_class::say_executable_hello";
 }
 
 // = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

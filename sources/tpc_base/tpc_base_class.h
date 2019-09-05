@@ -1,14 +1,14 @@
 #pragma once
 
 
-#include "tp_base.h"
+#include "tpc_base.h"
 
 
 namespace jmsd {
-namespace tp_base {
+namespace tpc_base {
 
 
-class JMSD_TP_BASE_LIBRARY_TEMPLATE_SHARED_INTERFACE Tp_base_class {
+class JMSD_TPC_BASE_LIBRARY_TEMPLATE_SHARED_INTERFACE Tpc_base_class {
 
 public:
 
@@ -18,21 +18,21 @@ public:
 
 // = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 public:
-	virtual ~Tp_base_class() noexcept;
+	virtual ~Tpc_base_class() noexcept;
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 public:
-	Tp_base_class() noexcept;
+	Tpc_base_class() noexcept;
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 public:
-	Tp_base_class( const Tp_base_class &another ) noexcept;
-	const Tp_base_class &operator =( const Tp_base_class &another ) noexcept;
+	Tpc_base_class( const Tpc_base_class &another ) noexcept;
+	const Tpc_base_class &operator =( const Tpc_base_class &another ) noexcept;
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 public:
-	Tp_base_class( Tp_base_class &&another ) noexcept;
-	Tp_base_class &operator =( Tp_base_class &&another ) noexcept;
+	Tpc_base_class( Tpc_base_class &&another ) noexcept;
+	Tpc_base_class &operator =( Tpc_base_class &&another ) noexcept;
 
 // # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 private:

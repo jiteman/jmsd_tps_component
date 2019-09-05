@@ -1,13 +1,13 @@
-#include "tp_derived_class.h"
+#include "tpc_derived_class.h"
 
 
 namespace jmsd {
-namespace tp_derived {
+namespace tpc_derived {
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-char const *Tp_derived_class::say_derived_hello() const noexcept {
-	return "Tp_derived_class::say_derived_hello";
+char const *Tpc_derived_class::say_derived_hello() const noexcept {
+	return "Tpc_derived_class::say_derived_hello";
 }
 
 // = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

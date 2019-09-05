@@ -1,23 +1,23 @@
 #pragma once
 
 
-#include "tp_base/tp_base_class.h"
+#include "tpc_base/tpc_base_class.h"
 
 
-#include "tp_derived.h"
+#include "tpc_derived.h"
 
 
 namespace jmsd {
-namespace tp_derived {
+namespace tpc_derived {
 
 
-class JMSD_TP_DERIVED_LIBRARY_TEMPLATE_SHARED_INTERFACE Tp_derived_class :
-	public tp_base::Tp_base_class
+class JMSD_TPC_DERIVED_LIBRARY_TEMPLATE_SHARED_INTERFACE Tpc_derived_class :
+	public tpc_base::Tpc_base_class
 {
 
 public:
-	// virtuals Tp_base_class
-	//~virtuals Tp_base_class
+	// virtuals Tpc_base_class
+	//~virtuals Tpc_base_class
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 public:
@@ -25,22 +25,22 @@ public:
 
 // = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 public:
-	// virtual Tp_base_class
-	~Tp_derived_class() noexcept override = default;
+	// virtual Tpc_base_class
+	~Tpc_derived_class() noexcept override = default;
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 public:
-	Tp_derived_class() noexcept = default;
+	Tpc_derived_class() noexcept = default;
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 private:
-	Tp_derived_class( const Tp_derived_class &another ) noexcept = delete;
-	Tp_derived_class &operator =( const Tp_derived_class &another ) noexcept = delete;
+	Tpc_derived_class( const Tpc_derived_class &another ) noexcept = delete;
+	Tpc_derived_class &operator =( const Tpc_derived_class &another ) noexcept = delete;
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 private:
-	Tp_derived_class( Tp_derived_class &&another ) noexcept = delete;
-	Tp_derived_class &operator =( Tp_derived_class &&another ) noexcept = delete;
+	Tpc_derived_class( Tpc_derived_class &&another ) noexcept = delete;
+	Tpc_derived_class &operator =( Tpc_derived_class &&another ) noexcept = delete;
 
 // # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 private:
