@@ -1,7 +1,7 @@
 #pragma once
 
 
-#include "tpc_base/tpc_base_class.h"
+#include "tpc_base_class.h"
 
 
 #include "tpc_derived.h"

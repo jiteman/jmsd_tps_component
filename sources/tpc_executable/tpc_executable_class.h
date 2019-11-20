@@ -1,7 +1,7 @@
 #pragma once
 
 
-#include "tpc_derived/tpc_derived_class.h"
+#include "tpc_derived_class.h"
 
 
 namespace jmsd {
