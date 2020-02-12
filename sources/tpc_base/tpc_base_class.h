@@ -47,5 +47,5 @@ private:
 
 
 
-} // namespace blt
+} // namespace tpc_base
 } // namespace jmsd

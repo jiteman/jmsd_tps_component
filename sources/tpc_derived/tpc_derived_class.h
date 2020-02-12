@@ -54,5 +54,5 @@ private:
 };
 
 
-} // namespace dlt
+} // namespace tpc_derived
 } // namespace jmsd

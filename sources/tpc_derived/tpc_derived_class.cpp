@@ -25,5 +25,5 @@ char const *Tpc_derived_class::say_derived_hello() const noexcept {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
-} // namespace dlt
+} // namespace tpc_derived
 } // namespace jmsd

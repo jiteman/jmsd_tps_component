@@ -47,5 +47,5 @@ Tpc_base_class &Tpc_base_class::operator =( Tpc_base_class &&another ) noexcept 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
-} // namespace blt
+} // namespace tpc_base
 } // namespace jmsd

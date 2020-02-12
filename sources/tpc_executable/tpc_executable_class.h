@@ -51,5 +51,5 @@ private:
 };
 
 
-} // namespace et
+} // namespace tpc_executable
 } // namespace jmsd

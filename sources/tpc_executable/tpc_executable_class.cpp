@@ -25,5 +25,5 @@ char const *Tpc_executable_class::say_executable_hello() const noexcept {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
-} // namespace et
+} // namespace tpc_executable
 } // namespace jmsd
